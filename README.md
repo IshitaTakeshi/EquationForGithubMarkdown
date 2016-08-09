@@ -3,7 +3,7 @@
 You can convert markdown text into the one which equations can be drawn automatically.
 
 # Usage
-## 1. Writing a Markdown file
+## 1. Write a Markdown file
 We assume that you wrote a Markdown file like below and saved as `example.md`.
 
 ```md:example.md
@@ -14,7 +14,7 @@ $e^{i\theta} = cos\theta + i\sin\theta$
 
 But the equation cannot be drawn by default.
 
-## 2. Convert a file
+## 2. Convert the file
 Run a command to convert the file.
 
 ```
