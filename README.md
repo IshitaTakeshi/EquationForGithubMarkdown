@@ -7,8 +7,6 @@ You can convert markdown text into the one which equations can be drawn automati
 We assume that you wrote a Markdown file like below and saved as `example.md`.
 
 ```md:example.md
-This is an approximation of sin(x)
-
 $e^{i\theta} = cos\theta + i\sin\theta$
 ```
 
@@ -24,8 +22,6 @@ python3 converter.py example.md
 This command converts equations surrounded by a pair of dollar signs ($), and saves into `example.converted.md`
 
 ```md:example.converted.md
-This is an approximation of sin(x)
-
 ![](https://latex.codecogs.com/gif.latex?e%5E%7Bi%5Ctheta%7D%20%3D%20cos%5Ctheta%20%2B%20i%5Csin%5Ctheta)
 ```
 
@@ -33,8 +29,6 @@ This is an approximation of sin(x)
 The equation can be drawn beautifully.
 
 ---
-
-This is an approximation of sin(x)
 
 ![](https://latex.codecogs.com/gif.latex?e%5E%7Bi%5Ctheta%7D%20%3D%20cos%5Ctheta%20%2B%20i%5Csin%5Ctheta)
 
