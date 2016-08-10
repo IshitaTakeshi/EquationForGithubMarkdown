@@ -6,7 +6,7 @@ import urllib.parse
 
 
 urlpattern = "![](https://latex.codecogs.com/gif.latex?{})"
-pattern = re.compile("\$.*\$")
+pattern = re.compile("\$[^\$]*\$")
 
 
 def replace_line(line):
