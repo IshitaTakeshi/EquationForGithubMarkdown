@@ -1,3 +1,1 @@
-This is an approximation of sin(x)
-
-$e^{i\theta} = cos\theta + i\sin\theta$
+$e^{i\theta} = cos\theta + i\sin\theta$ therefore $e^{i\pi} = -1$
